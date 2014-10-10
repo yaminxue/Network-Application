@@ -1,4 +1,5 @@
 My-territory
 ============
-*Name: Yamin Xue
-*Student ID: 14302951
+Name: Yamin Xue
+
+Student ID: 14302951
