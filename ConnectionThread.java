@@ -26,7 +26,7 @@ public class ConnectionThread extends Thread {
                     outToClient.writeBytes("Service is terminated.\n");
                     client.close();
                     System.exit(1);
-                } else if (clientSentence.equals("HELLO text")) {
+                } else if (clientSentence.equals("HELO text")) {
                     outToClient.writeBytes("HELLO text" + " IP: " + client.getLocalAddress() + " port: " + client.getLocalPort()  + " Student ID: 14302951" + '\n');
                 } else {
                     capitalisedSentence = clientSentence.toUpperCase() + '\n';
